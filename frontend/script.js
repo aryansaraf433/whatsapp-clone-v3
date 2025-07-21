@@ -1,7 +1,7 @@
 const socket = io("https://render-vexw.onrender.com");
 let myName = prompt("Enter your name");
 let selectedUser = "";
-const Socket = io("http://localhost:5000"); // or your deployed server
+const Socket = io("http://localhost:10000"); // or your deployed server
 
 socket.emit("register-user", myName);
 
